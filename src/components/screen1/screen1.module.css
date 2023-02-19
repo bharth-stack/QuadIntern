@@ -1,0 +1,338 @@
+.screen {
+  display: grid;
+  row-gap: 2rem;
+  grid-template-columns: 50% 50%;
+  /* margin-top: 15rem; */
+  margin-left: 5rem;
+}
+.screen1 {
+  display: flex;
+  background: linear-gradient(to right, #e71826e5, #ff008cf4);
+  width: 90%;
+  border: 0.1rem solid black;
+  border-radius: 0rem 1.2rem 1.2rem 0rem;
+  margin-bottom: 5rem;
+}
+.screen1_img {
+  width: 32%;
+  background-size: cover;
+  background-blend-mode: screen;
+  clip-path: polygon(0 0, 79% 0, 100% 99%, 0% 100%);
+}
+.screen1_h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-image: linear-gradient(to right, #958c8c, #000000);
+}
+.screen1_h2:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(#958c8c, 0.2);
+}
+.screen1_div2 {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.7rem;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 0.1rem;
+}
+.screen1_div2 p {
+  margin-bottom: 0.7rem;
+  color: white;
+  letter-spacing: 0.02rem;
+}
+.screen1_button {
+  margin-left: 13rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 45%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.7rem 1.2rem;
+  background-image: linear-gradient(to right, #685c5c, #000000);
+  color: rgb(197, 192, 192);
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid white;
+  transition: all 0.3s ease;
+}
+.screen1_button:hover {
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+  color: white;
+}
+.screen1_align {
+  display: flex;
+  /* align-items: center; */
+  gap: 0.5rem;
+  /* justify-content: center; */
+}
+.screen1_align2 {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.screen2 {
+  width: 70%;
+  display: flex;
+  gap: 3rem;
+  border: 0.1rem solid black;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.screen2_img {
+  width: 30%;
+}
+.screen2_h2 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.45rem;
+  transition: all 0.2s;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-image: linear-gradient(to right, #e71826e5, #ff008cf4);
+}
+.screen2_h2:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(#958c8c, 0.2);
+}
+.screen2_h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.15rem;
+}
+.screen2_p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: justify;
+  padding-right: 1rem;
+}
+.screen_2_buttons_align {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.screen_2_buttons_button1 {
+  padding: 0.5rem 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.screen_2_buttons_button2 {
+  padding: 0.5rem 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  background-image: linear-gradient(to right, #e71826e5, #ff008cf4);
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.screen_2_buttons_button1:hover {
+  cursor: pointer;
+  color: #958c8c;
+  background-image: linear-gradient(to right, #e71826e5, #ff008cf4);
+}
+.screen_2_buttons_button2:hover {
+  cursor: pointer;
+  color: #958c8c;
+  border: 0.1rem solid black;
+  background-image: linear-gradient(to right, #e7dedfe5, #998a92f4);
+}
+.screen2_div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.screen2_overlay {
+  background-color: white;
+  height: 77%;
+  width: 37%;
+  position: absolute;
+  left: 25rem;
+  top: 7rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.5rem;
+  /* justify-content: center; */
+  gap: 2rem;
+}
+.screen2_form {
+  width: 100%;
+  height: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  background-image: linear-gradient(to right, #e71826e5, #ff008cf4);
+}
+.screen2_form_input_align {
+  width: 100%;
+  gap: 2rem;
+  justify-content: space-between;
+  display: flex;
+  color: #000000;
+}
+@media (max-width: 52em) {
+  html {
+    font-size: 33%;
+  }
+  .screen {
+    display: grid;
+    row-gap: 2rem;
+    grid-template-columns: 100%;
+  }
+  .screen1 {
+    display: flex;
+    background: linear-gradient(to right, #e71826e5, #ff008cf4);
+    width: 90%;
+    border: 0.1rem solid black;
+    border-radius: 0rem 1.2rem 1.2rem 0rem;
+    margin-bottom: 5rem;
+  }
+  .screen1_h2 {
+    font-size: 9rem;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .screen1_align2 {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .screen1_align {
+    font-size: 3.8rem;
+  }
+  .scren2_hide {
+    display: none;
+  }
+  .screen1_button {
+    width: 75%;
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding: 1.7rem 2.2rem;
+    letter-spacing: 0.3rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid white;
+    transition: all 0.3s ease;
+  }
+  .screen2_h2 {
+    font-size: 8.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .screen2_h3 {
+    font-size: 6.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .screen2_p {
+    font-size: 2.2rem;
+    margin: 0;
+    padding-right: 1.8rem;
+  }
+  .screen_2_buttons_button1 {
+    font-size: 3.3rem;
+  }
+  .screen_2_buttons_button2 {
+    font-size: 3.3rem;
+  }
+}
+@media (max-width: 23em) {
+  html {
+    font-size: 33%;
+  }
+  .screen {
+    display: grid;
+    row-gap: 2rem;
+    grid-template-columns: 100%;
+  }
+  .screen1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .screen1_img {
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    background-blend-mode: screen;
+    clip-path: none;
+  }
+  .screen1_h2 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+  }
+  .screen1_align2 {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .screen1_align {
+    font-size: 3.8rem;
+  }
+  .screen1_div2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .screen1_align span {
+    font-size: 3rem;
+  }
+  .scren2_hide {
+    display: none;
+  }
+  .screen1_button {
+    margin-left: 7.5rem;
+    margin-top: 15rem;
+  }
+  .screen2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .screen2_h2 {
+    padding: 0 0 0 1rem;
+  }
+  .screen2_h3 {
+    padding: 0 0 0 1rem;
+  }
+  .screen2_p {
+    font-size: 2.6rem;
+    margin: 0;
+    padding-right: 1.8rem;
+    padding-left: 1rem;
+  }
+  .screen2_img {
+    width: 100%;
+    height: 50rem;
+  }
+}
